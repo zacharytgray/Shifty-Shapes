@@ -1,0 +1,31 @@
+<linker>
+	<assembly fullname="Assembly-CSharp" ignoreIfMissing="1">
+		<type fullname="Difficulty">
+			<method name="EasyMode"/>
+			<method name="HardMode"/>
+			<method name="MediumMode"/>
+		</type>
+		<type fullname="HighScore">
+			<method name="resetHighScore"/>
+		</type>
+		<type fullname="MainMenu">
+			<method name="BackToMenu"/>
+			<method name="BackToMenu"/>
+			<method name="BackToMenu"/>
+			<method name="PlayGame"/>
+			<method name="PlayGame"/>
+			<method name="PlayGame"/>
+			<method name="QuitGame"/>
+		</type>
+	</assembly>
+	<assembly fullname="UnityEngine.CoreModule" ignoreIfMissing="1">
+		<type fullname="UnityEngine.GameObject">
+			<method name="SetActive"/>
+			<method name="SetActive"/>
+			<method name="SetActive"/>
+			<method name="SetActive"/>
+			<method name="SetActive"/>
+			<method name="SetActive"/>
+		</type>
+	</assembly>
+</linker>
